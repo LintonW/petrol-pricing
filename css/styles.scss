@@ -704,6 +704,128 @@ nav {
     }
 }
 
+.privacy-policy-section {
+    .privacy-policy-container {
+        h1 {
+            margin-top: 24px;
+            color: $n100;
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+
+        h2 {
+            margin-top: 48px;
+            color: $n100;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+        }
+
+        h3 {
+            margin-top: 24px;
+            color: $n100;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+        }
+
+        p {
+            margin-top: 16px;
+            color: $n75;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 150%; /* 24px */
+        }
+
+        ul {
+            li {
+                margin-top: 16px;
+                margin-left: 32px;
+                color: $n75;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 150%; /* 24px */
+            }
+        }
+
+        .last-updated-caption {
+            margin-top: 8px;
+            color: $n50;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+        }
+    }
+}
+
+.terms-and-conditions-section {
+    .terms-and-conditions-container {
+        h1 {
+            margin-top: 24px;
+            color: $n100;
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+
+        h2 {
+            margin-top: 48px;
+            color: $n100;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+        }
+
+        h3 {
+            margin-top: 24px;
+            color: $n100;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+        }
+
+        p {
+            margin-top: 16px;
+            color: $n75;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 150%; /* 24px */
+        }
+
+        ul {
+            li {
+                margin-top: 16px;
+                margin-left: 32px;
+                color: $n75;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 150%; /* 24px */
+            }
+        }
+
+        .last-updated-caption {
+            margin-top: 8px;
+            color: $n50;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+        }
+    }
+}
+
 @media (max-width: 768px) {
     nav {
         padding: 0px 20px;
@@ -736,6 +858,14 @@ nav {
     }
 
     .tips-section {
+        padding: 0px 20px;
+    }
+
+    .privacy-policy-section {
+        padding: 0px 20px;
+    }
+
+    .terms-and-conditions-section {
         padding: 0px 20px;
     }
 

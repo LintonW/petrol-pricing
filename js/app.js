@@ -401,10 +401,10 @@ function updateCountdown() {
 
     const firstWednesday = getFirstWednesday(targetYear, targetMonth);
 
-    // Normalise to midnight and include the current day (+1)
+    // Normalise to midnight for accurate day difference
     const today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
     const diffMs = firstWednesday.getTime() - today.getTime();
-    const diffDays = Math.round(diffMs / (1000 * 60 * 60 * 24)) + 1;
+    const diffDays = Math.round(diffMs / (1000 * 60 * 60 * 24));
 
     countdownSpan.textContent = `${diffDays} day${diffDays !== 1 ? "s" : ""}`;
 }

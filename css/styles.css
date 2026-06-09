@@ -160,10 +160,11 @@ nav .nav-container .nav-links-container .recieve-alerts-btn:hover {
 .hero-section .hero-container .price-cards .price-card .price-heading {
   margin-top: 24px;
   color: #ffffff;
-  font-size: 32px;
+  font-size: 40px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  letter-spacing: 0.5px;
 }
 .hero-section .hero-container .price-cards .price-card .price-heading .price-per-litre {
   color: rgba(255, 255, 255, 0.5);
@@ -260,17 +261,17 @@ nav .nav-container .nav-links-container .recieve-alerts-btn:hover {
   transition: border-color 0.5s ease;
 }
 .alerts-section .alerts-container form input::-moz-placeholder {
-  color: rgba(13, 13, 13, 0.5);
+  color: rgba(13, 13, 13, 0.25);
   font-size: 16px;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 400;
   line-height: normal;
 }
 .alerts-section .alerts-container form input::placeholder {
-  color: rgba(13, 13, 13, 0.5);
+  color: rgba(13, 13, 13, 0.25);
   font-size: 16px;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 400;
   line-height: normal;
 }
 .alerts-section .alerts-container form input:focus {

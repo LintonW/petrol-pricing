@@ -193,10 +193,11 @@ nav {
                 .price-heading {
                     margin-top: 24px;
                     color: $n100;
-                    font-size: 32px;
+                    font-size: 40px;
                     font-style: normal;
                     font-weight: 700;
                     line-height: normal;
+                    letter-spacing: 0.5px;
 
                     .price-per-litre {
                         color: $n50;
@@ -303,10 +304,10 @@ nav {
                 transition: border-color 0.5s ease;
 
                 &::placeholder {
-                    color: rgba(13, 13, 13, 0.5);
+                    color: rgba(13, 13, 13, 0.25);
                     font-size: 16px;
                     font-style: normal;
-                    font-weight: 500;
+                    font-weight: 400;
                     line-height: normal;
                 }
 
@@ -843,6 +844,11 @@ nav {
 
     .hero-section {
         padding: 0px 20px;
+
+        .price-cards {
+            .price-card {
+            }
+        }
     }
 
     .alerts-section {

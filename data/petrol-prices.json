@@ -1,0 +1,379 @@
+[
+    {
+        "date": "2025-01-01",
+        "region": "inland",
+        "prices": {
+            "petrol95": 21.59,
+            "petrol93": 21.34,
+            "diesel500": 19.29,
+            "diesel50": 19.43
+        }
+    },
+    {
+        "date": "2025-01-01",
+        "region": "coastal",
+        "prices": {
+            "petrol95": 20.8,
+            "petrol93": 20.55,
+            "diesel500": 18.5,
+            "diesel50": 18.64
+        }
+    },
+
+    {
+        "date": "2025-02-01",
+        "region": "inland",
+        "prices": {
+            "petrol95": 22.41,
+            "petrol93": 22.16,
+            "diesel500": 20.34,
+            "diesel50": 20.44
+        }
+    },
+    {
+        "date": "2025-02-01",
+        "region": "coastal",
+        "prices": {
+            "petrol95": 21.62,
+            "petrol93": 21.37,
+            "diesel500": 19.55,
+            "diesel50": 19.65
+        }
+    },
+
+    {
+        "date": "2025-03-01",
+        "region": "inland",
+        "prices": {
+            "petrol95": 22.34,
+            "petrol93": 22.09,
+            "diesel500": 20.16,
+            "diesel50": 20.2
+        }
+    },
+    {
+        "date": "2025-03-01",
+        "region": "coastal",
+        "prices": {
+            "petrol95": 21.55,
+            "petrol93": 21.3,
+            "diesel500": 19.37,
+            "diesel50": 19.41
+        }
+    },
+
+    {
+        "date": "2025-04-01",
+        "region": "inland",
+        "prices": {
+            "petrol95": 21.62,
+            "petrol93": 21.51,
+            "diesel500": 19.32,
+            "diesel50": 19.35
+        }
+    },
+    {
+        "date": "2025-04-01",
+        "region": "coastal",
+        "prices": {
+            "petrol95": 20.79,
+            "petrol93": 20.68,
+            "diesel500": 18.49,
+            "diesel50": 18.51
+        }
+    },
+
+    {
+        "date": "2025-05-01",
+        "region": "inland",
+        "prices": {
+            "petrol95": 21.4,
+            "petrol93": 21.29,
+            "diesel500": 18.9,
+            "diesel50": 18.94
+        }
+    },
+    {
+        "date": "2025-05-01",
+        "region": "coastal",
+        "prices": {
+            "petrol95": 20.57,
+            "petrol93": 20.46,
+            "diesel500": 18.07,
+            "diesel50": 18.1
+        }
+    },
+
+    {
+        "date": "2025-06-01",
+        "region": "inland",
+        "prices": {
+            "petrol95": 21.35,
+            "petrol93": 21.24,
+            "diesel500": 18.53,
+            "diesel50": 18.57
+        }
+    },
+    {
+        "date": "2025-06-01",
+        "region": "coastal",
+        "prices": {
+            "petrol95": 20.52,
+            "petrol93": 20.41,
+            "diesel500": 17.7,
+            "diesel50": 17.73
+        }
+    },
+
+    {
+        "date": "2025-07-01",
+        "region": "inland",
+        "prices": {
+            "petrol95": 21.87,
+            "petrol93": 21.79,
+            "diesel500": 19.35,
+            "diesel50": 19.41
+        }
+    },
+    {
+        "date": "2025-07-01",
+        "region": "coastal",
+        "prices": {
+            "petrol95": 21.04,
+            "petrol93": 20.96,
+            "diesel500": 18.52,
+            "diesel50": 18.57
+        }
+    },
+
+    {
+        "date": "2025-08-01",
+        "region": "inland",
+        "prices": {
+            "petrol95": 21.59,
+            "petrol93": 21.51,
+            "diesel500": 20.0,
+            "diesel50": 20.04
+        }
+    },
+    {
+        "date": "2025-08-01",
+        "region": "coastal",
+        "prices": {
+            "petrol95": 20.76,
+            "petrol93": 20.68,
+            "diesel500": 19.17,
+            "diesel50": 19.2
+        }
+    },
+
+    {
+        "date": "2025-09-01",
+        "region": "inland",
+        "prices": {
+            "petrol95": 21.55,
+            "petrol93": 21.47,
+            "diesel500": 19.44,
+            "diesel50": 19.47
+        }
+    },
+    {
+        "date": "2025-09-01",
+        "region": "coastal",
+        "prices": {
+            "petrol95": 20.72,
+            "petrol93": 20.64,
+            "diesel500": 18.61,
+            "diesel50": 18.63
+        }
+    },
+
+    {
+        "date": "2025-10-01",
+        "region": "inland",
+        "prices": {
+            "petrol95": 21.63,
+            "petrol93": 21.48,
+            "diesel500": 19.34,
+            "diesel50": 19.39
+        }
+    },
+    {
+        "date": "2025-10-01",
+        "region": "coastal",
+        "prices": {
+            "petrol95": 20.8,
+            "petrol93": 20.65,
+            "diesel500": 18.51,
+            "diesel50": 18.55
+        }
+    },
+
+    {
+        "date": "2025-11-01",
+        "region": "inland",
+        "prices": {
+            "petrol95": 21.12,
+            "petrol93": 20.97,
+            "diesel500": 19.13,
+            "diesel50": 19.2
+        }
+    },
+    {
+        "date": "2025-11-01",
+        "region": "coastal",
+        "prices": {
+            "petrol95": 20.29,
+            "petrol93": 20.14,
+            "diesel500": 18.3,
+            "diesel50": 18.36
+        }
+    },
+
+    {
+        "date": "2025-12-01",
+        "region": "inland",
+        "prices": {
+            "petrol95": 21.41,
+            "petrol93": 21.26,
+            "diesel500": 19.79,
+            "diesel50": 20.02
+        }
+    },
+    {
+        "date": "2025-12-01",
+        "region": "coastal",
+        "prices": {
+            "petrol95": 20.58,
+            "petrol93": 20.43,
+            "diesel500": 18.96,
+            "diesel50": 19.19
+        }
+    },
+
+    {
+        "date": "2026-01-01",
+        "region": "inland",
+        "prices": {
+            "petrol95": 20.75,
+            "petrol93": 20.64,
+            "diesel500": 18.42,
+            "diesel50": 18.52
+        }
+    },
+    {
+        "date": "2026-01-01",
+        "region": "coastal",
+        "prices": {
+            "petrol95": 19.92,
+            "petrol93": 19.81,
+            "diesel500": 17.59,
+            "diesel50": 17.69
+        }
+    },
+
+    {
+        "date": "2026-02-01",
+        "region": "inland",
+        "prices": {
+            "petrol95": 20.1,
+            "petrol93": 19.99,
+            "diesel500": 17.92,
+            "diesel50": 17.95
+        }
+    },
+    {
+        "date": "2026-02-01",
+        "region": "coastal",
+        "prices": {
+            "petrol95": 19.27,
+            "petrol93": 19.16,
+            "diesel500": 17.09,
+            "diesel50": 17.12
+        }
+    },
+
+    {
+        "date": "2026-03-01",
+        "region": "inland",
+        "prices": {
+            "petrol95": 20.3,
+            "petrol93": 20.19,
+            "diesel500": 18.54,
+            "diesel50": 18.6
+        }
+    },
+    {
+        "date": "2026-03-01",
+        "region": "coastal",
+        "prices": {
+            "petrol95": 19.47,
+            "petrol93": 19.36,
+            "diesel500": 17.71,
+            "diesel50": 17.77
+        }
+    },
+
+    {
+        "date": "2026-04-01",
+        "region": "inland",
+        "prices": {
+            "petrol95": 23.36,
+            "petrol93": 23.25,
+            "diesel500": 25.91,
+            "diesel50": 26.11
+        }
+    },
+    {
+        "date": "2026-04-01",
+        "region": "coastal",
+        "prices": {
+            "petrol95": 22.49,
+            "petrol93": 22.38,
+            "diesel500": 25.04,
+            "diesel50": 25.24
+        }
+    },
+
+    {
+        "date": "2026-05-01",
+        "region": "inland",
+        "prices": {
+            "petrol95": 26.63,
+            "petrol93": 26.52,
+            "diesel500": 31.18,
+            "diesel50": 31.38
+        }
+    },
+    {
+        "date": "2026-05-01",
+        "region": "coastal",
+        "prices": {
+            "petrol95": 25.76,
+            "petrol93": 25.65,
+            "diesel500": 30.3,
+            "diesel50": 30.51
+        }
+    },
+
+    {
+        "date": "2026-06-01",
+        "region": "inland",
+        "prices": {
+            "petrol95": 28.06,
+            "petrol93": 27.95,
+            "diesel500": 27.93,
+            "diesel50": 28.76
+        }
+    },
+    {
+        "date": "2026-06-01",
+        "region": "coastal",
+        "prices": {
+            "petrol95": 27.19,
+            "petrol93": 27.08,
+            "diesel500": 27.05,
+            "diesel50": 27.89
+        }
+    }
+]

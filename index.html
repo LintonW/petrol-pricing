@@ -1,0 +1,290 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>PetrolSA - Petrol Pricing South Africa</title>
+        <link rel="icon" href="assets/petrolsa-icon.svg" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+            rel="stylesheet" />
+        <link rel="stylesheet" href="css/styles.css" />
+    </head>
+    <body>
+        <!-- Navbar -->
+        <nav class="navbar">
+            <div class="nav-container">
+                <a href="index.html" class="logo"><img src="assets/petrolsa-logo.svg" alt="PetrolSA Logo" srcset="" /></a>
+
+                <div class="nav-links-container">
+                    <ul class="nav-links">
+                        <li><a href="#price-trend-section">Trends</a></li>
+                        <li><a href="#calculator-section">Calculator</a></li>
+                        <li><a href="#tips-section">Tips</a></li>
+                    </ul>
+
+                    <a href="#alerts-section"><button class="recieve-alerts-btn">Recieve Alerts</button> </a>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <div class="hero-container">
+                <div class="trust-bar">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                        <g clip-path="url(#clip0_19_17)">
+                            <path
+                                d="M16 8C16 10.1217 15.1571 12.1566 13.6569 13.6569C12.1566 15.1571 10.1217 16 8 16C5.87827 16 3.84344 15.1571 2.34315 13.6569C0.842855 12.1566 0 10.1217 0 8C0 5.87827 0.842855 3.84344 2.34315 2.34315C3.84344 0.842855 5.87827 0 8 0C10.1217 0 12.1566 0.842855 13.6569 2.34315C15.1571 3.84344 16 5.87827 16 8ZM12.03 4.97C11.9586 4.89882 11.8735 4.84277 11.7799 4.80522C11.6863 4.76766 11.5861 4.74936 11.4853 4.75141C11.3845 4.75347 11.2851 4.77583 11.1932 4.81717C11.1012 4.85851 11.0185 4.91797 10.95 4.992L7.477 9.417L5.384 7.323C5.24183 7.19052 5.05378 7.1184 4.85948 7.12183C4.66518 7.12525 4.47979 7.20397 4.34238 7.34138C4.20497 7.47879 4.12625 7.66418 4.12283 7.85848C4.1194 8.05278 4.19152 8.24083 4.324 8.383L6.97 11.03C7.04128 11.1012 7.12616 11.1572 7.21958 11.1949C7.313 11.2325 7.41305 11.2509 7.51375 11.2491C7.61444 11.2472 7.71374 11.2251 7.8057 11.184C7.89766 11.1429 7.9804 11.0837 8.049 11.01L12.041 6.02C12.1771 5.8785 12.2523 5.68928 12.2504 5.49296C12.2485 5.29664 12.1698 5.10888 12.031 4.97H12.03Z"
+                                fill="#FF4D00" />
+                        </g>
+                        <defs>
+                            <clipPath id="clip0_19_17">
+                                <rect width="16" height="16" fill="white" />
+                            </clipPath>
+                        </defs>
+                    </svg>
+
+                    <p class="caption-text">Updated 1 June 2026 · Source: Dept. of Mineral and Petroleum Resources</p>
+                </div>
+
+                <h1 class="hero-heading">South Africa Petrol Prices</h1>
+                <p class="hero-text">Effective 3 June 2026</p>
+
+                <div class="region-toggle">
+                    <button class="region-btn active">Inland</button>
+                    <button class="region-btn">Coastal</button>
+                </div>
+
+                <div class="price-cards">
+                    <div class="price-card">
+                        <p class="price-caption">Petrol 95</p>
+                        <h1 class="price-heading">R28.06 <span class="price-per-litre">/litre</span></h1>
+                        <p class="price-change-up">↑ R1.43 from May</p>
+                    </div>
+
+                    <div class="price-card">
+                        <p class="price-caption">Petrol 93</p>
+                        <h1 class="price-heading">R27.95 <span class="price-per-litre">/litre</span></h1>
+                        <p class="price-change-up">↑ R1.43 from May</p>
+                    </div>
+
+                    <div class="price-card">
+                        <p class="price-caption">Diesel 50ppm</p>
+                        <h1 class="price-heading">R28.76 <span class="price-per-litre">/litre</span></h1>
+                        <p class="price-change-down">↓ R2.62 from May</p>
+                    </div>
+
+                    <div class="price-card">
+                        <p class="price-caption">Diesel 500ppm</p>
+                        <h1 class="price-heading">R27.93 <span class="price-per-litre">/litre</span></h1>
+                        <p class="price-change-down">↓ R3.25 from May</p>
+                    </div>
+                </div>
+
+                <p class="price-countdown">Next price change in <span class="price-countdown-number">27 days</span></p>
+            </div>
+        </section>
+
+        <!-- Alerts Section -->
+        <section class="alerts-section">
+            <div class="alerts-container">
+                <h2 class="alerts-heading">Never Miss a Price Change</h2>
+                <p class="alerts-text">Get the new fuel price sent to you before the first Wednesday of every month.</p>
+
+                <form id="alerts-form" action="/submit" method="POST" novalidate>
+                    <label for="name">Full Name*</label>
+                    <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        placeholder="John Doe"
+                        required
+                        minlength="2"
+                        maxlength="50"
+                        autocomplete="name" />
+                    <span class="field-error" id="name-error" role="alert"></span>
+
+                    <label for="email">Email Address*</label>
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="john.doe@gmail.com"
+                        required
+                        autocomplete="email" />
+                    <span class="field-error" id="email-error" role="alert"></span>
+
+                    <label for="whatsapp">WhatsApp Number <span class="optional-label">(Optional)</span></label>
+                    <input type="tel" id="whatsapp" name="whatsapp" placeholder="e.g. 082 123 4567" autocomplete="tel" />
+                    <span class="field-error" id="whatsapp-error" role="alert"></span>
+
+                    <div class="hp-field" aria-hidden="true" tabindex="-1">
+                        <label for="website">Website</label>
+                        <input type="text" id="website" name="website" tabindex="-1" autocomplete="off" />
+                    </div>
+
+                    <button class="recieve-alerts-btn" type="submit" id="alerts-submit-btn">Sign Up For Alerts</button>
+                </form>
+
+                <div class="form-success" id="form-success">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <path
+                            d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"
+                            fill="#00c853" />
+                    </svg>
+                    <p class="form-success-text">Sign up successful! We'll send you fuel price updates.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Price Trend Section -->
+        <section id="price-trend-section" class="price-trend-section">
+            <div class="price-trend-container">
+                <h2 class="price-trend-heading">Keep Up to Date with Fuel Trends</h2>
+                <p class="price-trend-text">
+                    Track monthly fuel price changes over time and stay informed on trends driven by global oil prices and
+                    the Rand exchange rate.
+                </p>
+
+                <select id="fuel" name="fuel" class="fuel-select">
+                    <option value="petrol-95">Petrol 95</option>
+                    <option value="petrol-93">Petrol 93</option>
+                    <option value="diesel-50ppm">Diesel 50ppm</option>
+                    <option value="diesel-500ppm">Diesel 500ppm</option>
+                </select>
+
+                <div class="price-trend-chart">
+                    <canvas id="price-trend-canvas"></canvas>
+                </div>
+            </div>
+        </section>
+
+        <!-- Calculator Section -->
+        <section id="calculator-section" class="calculator-section">
+            <div class="calculator-container">
+                <h2 class="calculator-heading">Calculate Your Fuel Costs</h2>
+                <p class="calculator-text">See how the latest fuel price affects your monthly driving costs.</p>
+
+                <form id="calculator-form">
+                    <div class="calculator-form-item">
+                        <label for="fuel-type">Fuel Type</label>
+                        <select id="fuel-type" name="fuel-type" class="calculator-fuel-select" required>
+                            <option value="petrol-95">Petrol 95</option>
+                            <option value="petrol-93">Petrol 93</option>
+                            <option value="diesel-50ppm">Diesel 50ppm</option>
+                            <option value="diesel-500ppm">Diesel 500ppm</option>
+                        </select>
+                    </div>
+
+                    <div class="calculator-form-item">
+                        <label for="region">Region</label>
+                        <select id="region" name="region" class="calculator-region-select" required>
+                            <option value="inland">Inland</option>
+                            <option value="coastal">Coastal</option>
+                        </select>
+                    </div>
+
+                    <div class="calculator-form-item">
+                        <label for="distance">Monthly Distance (km)</label>
+                        <input type="number" id="distance" name="distance" placeholder="e.g. 1000" required />
+                    </div>
+
+                    <div class="calculator-form-item">
+                        <label for="consumption">Consumption (L/100km)</label>
+                        <input
+                            type="number"
+                            id="consumption"
+                            name="consumption"
+                            placeholder="e.g. 8.5"
+                            step="any"
+                            required />
+                    </div>
+
+                    <button class="calculate-btn" type="submit">Calculate My Fuel Cost</button>
+                </form>
+
+                <div class="calculated-cost">
+                    <p class="calculated-cost-text">Your estimated monthly fuel cost is</p>
+                    <h1 class="calculated-cost-amount">R1456.00</h1>
+                    <p class="calculated-cost-difference">R101 more than last month</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tips Section -->
+        <section id="tips-section" class="tips-section">
+            <div class="tips-container">
+                <h2 class="tips-heading">5 Ways to Save on Fuel</h2>
+                <p class="tips-text">Here are just a few ways you can save on petrol costs this month</p>
+                <div class="tip-card">
+                    <p class="tip-caption">Tip 1</p>
+                    <h3 class="tip-heading">Check your tyre pressure</h3>
+                    <p class="tip-text">Under-inflated tyres increase fuel consumption by up to 3%. Check them monthly.</p>
+                </div>
+
+                <div class="tip-card">
+                    <p class="tip-caption">Tip 2</p>
+                    <h3 class="tip-heading">Drive smoothly</h3>
+                    <p class="tip-text">
+                        Aggressive acceleration and hard braking can use 40% more fuel. Anticipate traffic and coast to
+                        stops.
+                    </p>
+                </div>
+
+                <div class="tip-card">
+                    <p class="tip-caption">Tip 3</p>
+                    <h3 class="tip-heading">Plan your route</h3>
+                    <p class="tip-text">
+                        Avoid peak traffic when possible. Stop-start driving burns significantly more fuel than steady
+                        cruising.
+                    </p>
+                </div>
+
+                <div class="tip-card">
+                    <p class="tip-caption">Tip 4</p>
+                    <h3 class="tip-heading">Use fuel rewards</h3>
+                    <p class="tip-text">
+                        Programmes like eBucks, Discovery Miles, and Absa Rewards can save R0.50–R1.50 per litre at partner
+                        stations.
+                    </p>
+                </div>
+
+                <div class="tip-card">
+                    <p class="tip-caption">Tip 5</p>
+                    <h3 class="tip-heading">Maintain your vehicle</h3>
+                    <p class="tip-text">
+                        A clean air filter, fresh spark plugs, and the correct engine oil can improve fuel economy by 4–10%.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="footer-container">
+                <hr />
+
+                <div class="logo-container">
+                    <a href="index.html"
+                        ><img src="assets/petrolsa-logo.svg" class="logo" alt="PetrolSA Logo" srcset=""
+                    /></a>
+                </div>
+
+                <ul class="footer-links">
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                </ul>
+
+                <p class="footer-text">
+                    © 2026 PetrolSA. Not affiliated with any government body. Prices shown are for informational purposes
+                    only.
+                </p>
+            </div>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        <script src="js/app.js"></script>
+    </body>
+</html>

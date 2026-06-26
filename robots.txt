@@ -1,0 +1,3 @@
+Allow: /
+
+Sitemap: https://fuelshap.co.za/sitemap.xml

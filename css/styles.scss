@@ -69,7 +69,7 @@ nav {
                 }
             }
 
-            .recieve-alerts-btn {
+            .receive-alerts-btn {
                 background-color: $bg-color;
                 color: $primary-color;
                 border-radius: 10px;
@@ -349,7 +349,7 @@ nav {
                 pointer-events: none;
             }
 
-            .recieve-alerts-btn {
+            .receive-alerts-btn {
                 margin-top: 8px;
                 background-color: $primary-color;
                 color: $n100;
@@ -439,6 +439,7 @@ nav {
         }
 
         .price-trend-chart {
+            min-height: 300px;
             margin-top: 24px;
 
             img {

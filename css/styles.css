@@ -382,7 +382,6 @@ nav .nav-container .nav-links-container .receive-alerts-btn:hover {
   color: #ffffff;
 }
 .price-trend-section .price-trend-container .price-trend-chart {
-  min-height: 300px;
   margin-top: 24px;
 }
 .price-trend-section .price-trend-container .price-trend-chart img {
@@ -725,7 +724,7 @@ nav .nav-container .nav-links-container .receive-alerts-btn:hover {
   nav .nav-container .nav-links-container {
     gap: 0px;
   }
-  nav .nav-container .nav-links-container .recieve-alerts-btn {
+  nav .nav-container .nav-links-container .receive-alerts-btn {
     display: none;
   }
   .hero-section {

@@ -375,5 +375,26 @@
             "diesel500": 27.05,
             "diesel50": 27.89
         }
+    },
+
+    {
+        "date": "2026-07-01",
+        "region": "inland",
+        "prices": {
+            "petrol95": 26.1,
+            "petrol93": 25.94,
+            "diesel500": 24.79,
+            "diesel50": 25.17
+        }
+    },
+    {
+        "date": "2026-07-01",
+        "region": "coastal",
+        "prices": {
+            "petrol95": 25.23,
+            "petrol93": 25.07,
+            "diesel500": 23.92,
+            "diesel50": 24.3
+        }
     }
 ]
